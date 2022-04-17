@@ -1,0 +1,9 @@
+<h1>Lista de personajes de Rick y Morty</h1>
+<br>
+<div>
+    <ng-container *ngFor="let characterIterator of characterList">
+    <app-character-card [character]="characterIterator"></app-character-card>
+    </ng-container>
+</div>
+
+
